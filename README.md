@@ -7,7 +7,7 @@ This is a simple tool I created to audit APIS in the codebase. The aim is to com
 
 I created this for personal use but happy for people to copy and adapt. ITS NOT PRODUCTION CODE. Its just used for personal reporting.
 
-To use, place your swagger docs in a folder and unzip the springboot jar the setup the project in project.clj. Next run the Clojure REPL then you can use the calls below to produce reports on the state of your code base vs the swagger code.
+To use, place your swagger docs in a folder and unzip the springboot jar and follow the instructions below. 
 
 
 See below for details
