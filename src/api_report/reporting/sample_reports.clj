@@ -33,7 +33,7 @@
        (filter :in-swagger)))
   
 
-;;----------------------- utils for duming above functions to CSV -------------------
+;;----------------------- utils for dumping above functions to CSV -------------------
 
 
 (defn- csv-escape
