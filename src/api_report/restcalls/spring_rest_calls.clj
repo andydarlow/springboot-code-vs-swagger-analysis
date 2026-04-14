@@ -18,13 +18,13 @@
 (def default-base-search-package
   "Default root package for class scanning. Override at runtime by passing
    :base-package to get-apis-definitions, or via the APP_BASE_PACKAGE env var."
-  (or (System/getenv "APP_BASE_PACKAGE") "com.aungmyatkyaw"))
+  (or (System/getenv "APP_BASE_PACKAGE") "com.mypackage))
 
 (def default-application-base-url
   "Default URL prefix prepended to every discovered endpoint. Override at runtime
    by passing :base-url to get-apis-definitions, or via the APP_BASE_URL env var.
    NOTE: could extract this from the @SpringBootApplication annotation."
-  (or (System/getenv "APP_BASE_URL") "/spms"))
+  (or (System/getenv "APP_BASE_URL") "/mycontext"))
 
 ;; --------- functions --------------------------------------------
 
